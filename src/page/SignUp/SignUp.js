@@ -83,7 +83,7 @@ const handleSignUpUser = async event => {
               </Link>
             </div>
             <button onClick={() => signInWithGoogle()} >
-              <img width={20} src={google} alt="" /> Google
+              <img width={20} src={google} alt="" className="google" /> Google
             </button>
           </form>
         </div>

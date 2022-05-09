@@ -1,4 +1,14 @@
 td,th{
     border: 1px solid black;
     padding: 1px;
+    
+}
+table{
+    text-align: center;
+    display: inline-table;
+
+
+}
+.tab{
+    text-align: center;
 }
