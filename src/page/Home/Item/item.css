@@ -1,0 +1,24 @@
+.card-style{
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+.card-style img{
+  padding: 10px 4px;
+  width: 330px;
+  height: 250px;
+  border-radius: 15px;
+}
+.btn-style{
+  background-color: #e7e2ff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 8px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.btn-style:hover{
+  background-color: #5100ff8f;
+}
