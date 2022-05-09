@@ -1,0 +1,12 @@
+.not-found h1{
+  font-size: 100px;
+}
+.not-found h6{
+  font-size: 30px;
+}
+.not-found button{
+  background-color: #53ea87;
+  border: none;
+  padding: 10px 13px;
+  border-radius: 10px;
+}
