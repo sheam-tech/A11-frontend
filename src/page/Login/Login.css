@@ -1,0 +1,88 @@
+.form-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../image/carousel-img/login-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.form-heading {
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.form-heading h2 {
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #8f7dfc;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.input-field {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #8f7dfc;
+}
+.icon {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.input-field input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.form-heading button {
+  width: 100%;
+  background: none;
+  border: 2px solid #8f7dfc;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.form-heading button:hover {
+  background-color: #907dfc2a;
+}
+.link-style a {
+  text-decoration: none;
+  color: #907dfca9;
+  font-weight: 500;
+}
+.link-style a:hover {
+  color: #8f7dfc;
+}
+.reset-password {
+  color: #907dfca9;
+  font-weight: 500;
+}
+.reset-password:hover {
+  color: #8f7dfc;
+  cursor: pointer;
+}
+.google{
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 576px){ 
+  .form-heading{
+    width: 50%;
+    margin-left: 45px;
+
+  }
+}
