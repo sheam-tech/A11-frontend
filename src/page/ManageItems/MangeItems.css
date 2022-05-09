@@ -1,0 +1,23 @@
+.table-container img{
+  width: 80px;
+  border-radius: 10px;
+  height: 80px;
+}
+.remove-icon{
+  font-size: 25px;
+  color: rgba(255, 0, 0, 0.637);
+  border: none;
+  background: none;
+}
+.update-btn{
+  border: none;
+  padding: 7px;
+  background-color: rgba(128, 128, 128, 0.158);
+  border-radius: 10px;
+}
+
+@media (max-width: 576px){ 
+   .table-container img{
+     width: 40px;
+   }
+ }
