@@ -1,0 +1,15 @@
+.accordion{
+width: 100%;
+ 
+}
+.img{
+
+}
+img{
+ height: 71vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+  
+}
