@@ -21,7 +21,7 @@ const MyItems = () => {
   };
   const [user] = useAuthState(auth);
   useEffect(() => {
-    const url = `http://localhost:5000/my-items?email=${user?.email}`;
+    const url = `https://boiling-lake-18195.herokuapp.com/my-items?email=${user?.email}`;
     axios(url, {
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -32,7 +32,7 @@ const MyItems = () => {
   const handleDeleteItem = (id) => {
     const proceed = window.confirm("Are you sure item is deleted");
     if (proceed) {
-      const url = `http://localhost:5000/items/${id}`;
+      const url = `https://boiling-lake-18195.herokuapp.com/items/${id}`;
       fetch(url, {
         method: "DELETE",
       })

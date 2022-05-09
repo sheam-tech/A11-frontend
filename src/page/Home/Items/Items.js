@@ -36,31 +36,3 @@ const Items = () => {
 };
 
 export default Items;
-
-
-
-
-// import React, { Component } from "react";
-// import Slider from "react-slick";
-
-// export default class MultipleItems extends Component {
-//   render() {
-//     const settings = {
-//       dots: true,
-//       infinite: true,
-//       speed: 500,
-//       slidesToShow: 3,
-//       slidesToScroll: 3
-//     };
-//     return (
-//       <div >
-//         <h2> Multiple items </h2>
-//         <Slider {...settings}>
-//            {[1, 2, 3, 4,].map((item, index) => {
-//              return <div key={index}> {item} </div>
-//            })}
-//         </Slider>
-//       </div>
-//     );
-//   }
-// }

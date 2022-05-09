@@ -18,7 +18,7 @@ const ManageItems = () => {
   const handleDeleteItem = (id) => {
     const proceed = window.confirm("Are you sure item is deleted");
     if (proceed) {
-      const url = `http://localhost:5000/items/${id}`;
+      const url = `https://boiling-lake-18195.herokuapp.com/items/${id}`;
       fetch(url, {
         method: "DELETE",
       })

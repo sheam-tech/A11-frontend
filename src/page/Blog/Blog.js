@@ -92,7 +92,28 @@ const Blog = () => {
         <Accordion.Item eventKey="2">
           <Accordion.Header>3.WHAT is the Differences between SQL and NoSQL databases?</Accordion.Header>
           <Accordion.Body className="table"> <div className="tab">
-          <table><thead><tr><th>SQL</th><th>NoSQL</th></tr></thead><tbody><tr><td>RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)</td><td>Non-relational or distributed database system.</td></tr><tr><td>These databases have fixed or static or predefined schema</td><td>They have dynamic schema</td></tr><tr><td>These databases are not suited for hierarchical data storage.</td><td>These databases are best suited for hierarchical data storage.</td></tr><tr><td>These databases are best suited for complex queries</td><td>These databases are not so good for complex queries</td></tr><tr><td>Vertically Scalable</td><td>Horizontally scalable</td></tr><tr><td>Follows ACID property</td><td>Follows CAP(consistency, availability, partition tolerance)</td></tr></tbody></table>
+          <table>
+            <thead>
+              <tr>
+                <th>SQL</th>
+                <th>NoSQL</th>
+                </tr></thead>
+                <tbody>
+                  <tr>
+                    <td>RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)</td>
+                    <td>Non-relational or distributed database system.</td></tr>
+                    <tr><td>These databases have fixed or static or predefined schema</td>
+                    <td>They have dynamic schema</td></tr>
+                    <tr><td>These databases are not suited for hierarchical data storage.</td>
+                    <td>These databases are best suited for hierarchical data storage.</td></tr>
+                    <tr><td>These databases are best suited for complex queries</td>
+                    <td>These databases are not so good for complex queries</td></tr>
+                    <tr><td>Vertically Scalable</td>
+                    <td>Horizontally scalable</td></tr>
+                    <tr><td>Follows ACID property</td>
+                    <td>Follows CAP(consistency, availability, partition tolerance)</td></tr>
+                    </tbody>
+                    </table>
 
           </div>
             

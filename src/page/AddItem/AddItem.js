@@ -22,7 +22,7 @@ const AddItem = () => {
     };
     console.log(data);
 
-    const url = `http://localhost:5000/items`;
+    const url = `https://boiling-lake-18195.herokuapp.com/items`;
     fetch(url, {
       method: "POST",
       headers: {
@@ -38,16 +38,6 @@ const AddItem = () => {
     toast("Thanks for Adding Item");
     event.reset();
   };
-
-  // const handleSubmit = (event) => {
-  //   const form = event.currentTarget;
-  //   if (form.checkValidity() === false) {
-  //     event.preventDefault();
-  //     event.stopPropagation();
-  //   }
-
-  //   setValidated(true);
-  // };
 
   return (
     <Fragment>

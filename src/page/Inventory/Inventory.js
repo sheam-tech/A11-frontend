@@ -8,7 +8,7 @@ const Inventory = () => {
   const [inventory, setInventory] = useState(id);
   const { img, name, price, description, quantity, supplier } = inventory;
   useEffect(() => {
-    const url = `http://localhost:5000/items/${id}`;
+    const url = `https://boiling-lake-18195.herokuapp.com/items/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setInventory(data));
@@ -26,7 +26,7 @@ const Inventory = () => {
     };
     setInventory(newInventory);
 
-    fetch(`http://localhost:5000/inventory/${id}`, {
+    fetch(`https://boiling-lake-18195.herokuapp.com/inventory/${id}`, {
       method: "PUT",
       body: JSON.stringify(newInventory),
       headers: {
@@ -56,7 +56,7 @@ const Inventory = () => {
     };
     setInventory(newInventory);
 
-    fetch(`http://localhost:5000/inventory/${id}`, {
+    fetch(`https://boiling-lake-18195.herokuapp.com/inventory/${id}`, {
       method: "PUT",
       body: JSON.stringify(newInventory),
       headers: {
